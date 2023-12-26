@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    android:layout_centerHorizontal="true"
+    android:background="@mipmap/p"
+    >
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/head"
+            android:text="SAMSUNG GALAXY S23 FE"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/p1image"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/s23"
+            />
+        <Button
+            android:id="@+id/buynow"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:text="BUY NOW @64999"
+            android:textSize="20dp"
+            />
+        <TableRow>
+            <TextView
+                android:text="Model Name"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Galaxy S23 FE 5G"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Color"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Graphite"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Display Size"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="16.31 cm (6.4 inch)"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Resolution"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="FHD+ 1080 x 2340 Pixels"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Display Type"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Dynamic AMOLED"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Refresh Rate"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="120Hz"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Operating System"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Android 13"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Processor Type"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Exynos 2200"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Internal Storage"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="256 GB"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="RAM"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="8 GB"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Primary Camera"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="50 MP + 12 MP + 8 MP"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Secondary Camera"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="10 MP Front Camera"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Video Recording Resolution"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="8K @ 24 fps UHD"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Network Type"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="4G, 5G, VoLTE, Vo5G"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Bluetooth Version"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="v5.4"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Wi-Fi"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Yes"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Audio Jack"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="USB Type-C"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="SIM Size"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Nano Sim"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Battery Capacity"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="4500 mAh"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Width"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="77 mm"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Height"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="158 mm"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Depth"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="8 mm"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Weight"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="209 g"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView />
+            <TextView />
+        </TableRow>
+    </TableLayout>
+</ScrollView>

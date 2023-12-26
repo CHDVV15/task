@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1"
+    android:layout_centerHorizontal="true"
+    android:background="@mipmap/p"
+    >
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/head"
+            android:text="GALAXY WATCH"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30dp"/>
+        <ImageView
+            android:id="@+id/p1image"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="20dp"
+            android:src="@mipmap/watch"
+            />
+        <Button
+            android:id="@+id/buynow"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:text="BUY NOW @32499"
+            android:textSize="20dp"
+            />
+        <TableRow>
+            <TextView
+                android:text="Series"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Galaxy Watch6"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Pattern"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="LTE"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Colour"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Graphite"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Item Height"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="29.2 Centimeters"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Item Width"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="6 Centimeters"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Screen display size"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="4.4 Centimetres"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Product Dimensions"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="3.2 x 6 x 29.2 cm;"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Batteries"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="1 Lithium Ion"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Item model number"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="SM-R945FZKAINS"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Connectivity Type"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="Cellular"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:text="Item Dimensions "
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+            <TextView
+                android:text="32 x 60 x 292 Millimeters"
+                android:textSize="15dp"
+                android:textColor="#FFFFFF"
+                android:padding="8dp"/>
+        </TableRow>
+        <TableRow>
+            <TextView />
+            <TextView />
+        </TableRow>
+    </TableLayout>
+</ScrollView>
